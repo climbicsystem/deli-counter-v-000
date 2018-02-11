@@ -24,4 +24,3 @@ def now_serving(spaces)
   end
   puts "There is nobody waiting to be served!"
 end
-
