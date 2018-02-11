@@ -12,7 +12,8 @@ def line(spaces)
 end
 
 def take_a_number(spaces, new_customer)
-  
+  spaces << new_customer
+  customer_number = spaces.size
 end
 
 def now_serving(spaces)
