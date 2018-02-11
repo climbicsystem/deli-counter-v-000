@@ -11,8 +11,8 @@ def line(spaces)
   end
 end
 
-def take_a_number
-
+def take_a_number(spaces, new_customer)
+  
 end
 
 def now_serving(spaces)
