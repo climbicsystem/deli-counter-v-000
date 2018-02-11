@@ -14,7 +14,7 @@ end
 def take_a_number(spaces, new_customer)
   spaces << new_customer
   customer_number = spaces.size
-  puts "Welcome #{new_customer}. You are number #{customer_number} in line."
+  puts "Welcome, #{new_customer}. You are number #{customer_number} in line."
 end
 
 def now_serving(spaces)
