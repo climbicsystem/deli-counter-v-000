@@ -20,6 +20,7 @@ end
 def now_serving(spaces)
   if spaces.size > 0
     puts "Currently serving #{spaces[0]}."
+    spaces.shift
   else
     puts "There is nobody waiting to be served!"
   end
