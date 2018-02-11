@@ -18,9 +18,10 @@ def take_a_number(spaces, new_customer)
 end
 
 def now_serving(spaces)
-  while spaces.size > 0
+  if spaces.size > 0
     puts "Currently serving #{spaces[0]}."
     spaces.shift
+  else
+    puts "There is nobody waiting to be served!"
   end
-  puts "There is nobody waiting to be served!"
 end
